@@ -8,7 +8,7 @@
 
 .app{
     height: 100%;
-    background: linear-gradient(rgba(26, 25, 25, 0.7), rgba(26, 25, 25, 0.7)), url('./images/1.jpg');
+    background: linear-gradient(rgba(26, 25, 25, 0.8), rgba(26, 25, 25, 0.8)), url('./images/1.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -21,14 +21,14 @@
 .card{
     background-color: rgb(215, 213, 213);
     width: 40%;
-    height: 20%;
+    height: 25%;
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
     border-radius: 25px;
     padding: 2%;
-    box-shadow: 5px 5px;
+    box-shadow: 0 0 50px 15px #2f0b47;
 }
 
 .heading{
@@ -36,6 +36,7 @@
     height: 580px;
     align-items: center;
     font-family: 'League Spartan', sans-serif;
+    text-shadow: 2px 2px 8px #630e9caa;
     
 }
 
@@ -52,12 +53,12 @@
     height: 210px;
     width: 210px;
     opacity: 1;
-    background-color: #cdf5e5;
-    border: 1px solid rgba(22, 167, 138, 0.6);
+    background-color: #7208a3ec;
+    border: 1px solid #2f0b47;
   }
     
   .button span {
-    color: #16a780;
+    color: #ecd5fb;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.7px;
