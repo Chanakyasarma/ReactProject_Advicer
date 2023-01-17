@@ -15,18 +15,13 @@ class App extends React.Component{
       .catch((error)=>{
         console.log(error);
       });
-      gettime=()=>{
-        var dt = new Date();
-        document.getElementById('date-time').innerHTML=dt;
-      }
-
+      
     }
     render(){
       const{advice}=this.state;
       return(
         
         <div className="app">
-          <span id='date-time'></span>
           <div className="card">
             <h1 className="heading">{advice}</h1>
             <button className="button" onClick={this.fetchAdvice}>
