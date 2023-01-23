@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import "./App.css";
+import "./App.c";
 class App extends React.Component{
     state={ advice: '' };
     componentDidMount(){
